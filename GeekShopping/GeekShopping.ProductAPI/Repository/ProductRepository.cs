@@ -24,11 +24,9 @@ namespace GeekShopping.ProductAPI.Repository
 
         public async Task<ProductVO> FindById(long id)
         {
-#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             Product product = await _context.Products
                                     .Where(p => p.Id == id)
-                                    .FirstOrDefaultAsync();
-#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
+                                    .FirstOrDefaultAsync() ?? new Product();
             return _mapper.Map<ProductVO>(product);
         }
 
@@ -54,8 +52,8 @@ namespace GeekShopping.ProductAPI.Repository
             {
                 Product product = await _context.Products
                                     .Where(p => p.Id == id)
-                                    .FirstOrDefaultAsync();
-                if (product == null)
+                                    .FirstOrDefaultAsync() ?? new Product();
+                if (product.Id <= 0)
                 {
                     return false;
                 }
