@@ -18,7 +18,7 @@ namespace GeekShopping.Web.Controllers
             var products = await _productService.FindAllProducts();
             return View(products);
         }
-        public async Task<IActionResult> ProductCreate(ProductModel model)
+        public async Task<IActionResult> ProductCreate()
         {
             return View();
         }
