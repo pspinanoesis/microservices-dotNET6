@@ -31,12 +31,14 @@ var builderServices = builder.Services.AddIdentityServer(options =>
     .AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
     .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
     .AddInMemoryClients(IdentityConfiguration.Clients)
-    .AddAspNetIdentity<ApplicationUser>();
+    .AddDeveloperSigningCredential()
+    .AddAspNetIdentity<ApplicationUser>()
+    .AddProfileService<ProfileService>();
 
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 
-builderServices.AddDeveloperSigningCredential();
+//builderServices.AddDeveloperSigningCredential();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
