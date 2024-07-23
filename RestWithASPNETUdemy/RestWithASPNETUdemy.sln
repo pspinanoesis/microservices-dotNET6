@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWithASPNETUdemy", "RestWithASPNETUdemy\RestWithASPNETUdemy.csproj", "{A00D9407-435A-4FFE-A151-965F1BEF8B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00D9407-435A-4FFE-A151-965F1BEF8B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00D9407-435A-4FFE-A151-965F1BEF8B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00D9407-435A-4FFE-A151-965F1BEF8B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00D9407-435A-4FFE-A151-965F1BEF8B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AC61D0E-051E-4897-AF4C-7E14E7180B44}
+	EndGlobalSection
+EndGlobal
