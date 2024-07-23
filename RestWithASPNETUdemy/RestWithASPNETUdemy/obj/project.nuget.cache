@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOF+p4wMpW5d6wMXEO7jlor4qWeY4uiFwL1u1hEPcrJhKWYG+upuRa1nTniZlTQaFWgWoTIbj/ZHGGljuLHrdg==",
+  "dgSpecHash": "K8NyobS0PcKRh4ko6PsIsstk5PcGofRMhGiRR5z/ftrECerso31EttVovswkod7HFFvAqjXnPpRJ2Sh7MJDW/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paulo.s.pina\\Desktop\\CursoCSHARP\\GIT\\MicroServiços\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+  "projectFilePath": "C:\\Users\\paulo.s.pina\\Desktop\\CursoCSHARP\\GIT\\MicroServiços\\microservices-dotNET6\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
