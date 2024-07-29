@@ -11,7 +11,7 @@ using RestWithASPNETUdemy.Model;
 namespace RestWithASPNETUdemy.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
 
@@ -42,7 +42,7 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(person);
         }
         
-        [HttpPost("{id}")]
+        [HttpPost]
         public IActionResult Post([FromBody] Person person)
         {
             if (person == null)
@@ -52,7 +52,7 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(_personService.Create(person));
         }
         
-        [HttpPut("{id}")]
+        [HttpPut]
         public IActionResult Put([FromBody] Person person)
         {
             if (person == null)
@@ -62,7 +62,7 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(_personService.Update(person));
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(long id)
         {
              _personService.Delete(id);
