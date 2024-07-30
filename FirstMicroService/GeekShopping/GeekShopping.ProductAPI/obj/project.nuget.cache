@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "UbVqv2q82w+u8k4HuV5uVhxPJMriov+UOxCfnla1Xj7OVu9A6BLBCLk9fJ2TA75RBvqkXdXMoBoEh5+1fRYnbA==",
+  "dgSpecHash": "z+sD8JSfrb9JJSTv1Avq0xU9l7AAe7K3FPgJv0fBtrAVy6NLdiT9Hub2vZxa99UxGbdLKpF1wahB5mYRYSuLfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\paulo.s.pina\\Desktop\\CursoCSHARP\\GIT\\MicroServiços\\microservices-dotNET6\\FirstMicroService\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
-    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.28\\microsoft.entityframeworkcore.6.0.28.nupkg.sha512",
-    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.28\\microsoft.entityframeworkcore.abstractions.6.0.28.nupkg.sha512",
-    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.28\\microsoft.entityframeworkcore.analyzers.6.0.28.nupkg.sha512",
-    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.28\\microsoft.entityframeworkcore.relational.6.0.28.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.32\\microsoft.entityframeworkcore.6.0.32.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.32\\microsoft.entityframeworkcore.abstractions.6.0.32.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.32\\microsoft.entityframeworkcore.analyzers.6.0.32.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.32\\microsoft.entityframeworkcore.design.6.0.32.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.32\\microsoft.entityframeworkcore.relational.6.0.32.nupkg.sha512",
+    "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.32\\microsoft.entityframeworkcore.tools.6.0.32.nupkg.sha512",
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
@@ -32,16 +34,5 @@
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\paulo.s.pina\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
