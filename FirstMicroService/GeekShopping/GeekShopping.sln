@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{30CF996A-6F82-4307-98E7-02EF2CDE764D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FCD1F475-6B89-48B8-842D-5A34904C3161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BDEFF79-1E3A-45D9-A8FE-7BC1F2067D4E} = {30CF996A-6F82-4307-98E7-02EF2CDE764D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF17C72-64F8-477D-A212-1918601AC86D}
+	EndGlobalSection
+EndGlobal
